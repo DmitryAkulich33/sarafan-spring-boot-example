@@ -31,5 +31,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.4'
 	annotationProcessor "org.projectlombok:lombok:1.18.4"
 	implementation 'org.postgresql:postgresql:42.2.5'
-	implementation 'org.javassist:javassist:3.15.0-GA'
+	implementation 'org.javassist:javassist:3.18.2-GA'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE'
 }
